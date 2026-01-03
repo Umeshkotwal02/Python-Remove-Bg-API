@@ -1,8 +1,12 @@
-# Lightweight requirements for Vercel
+# Production requirements for Render (Docker)
 flask
 flask-cors
 rembg
 pillow
 waitress
+gunicorn
 numpy<2.0.0
 onnxruntime==1.18.0
+transparent-background==1.2.12
+torch
+torchvision
