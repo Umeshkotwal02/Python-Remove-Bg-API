@@ -1,5 +1,5 @@
-# Use Python 3.10 slim image (good balance of size/compatibility)
-FROM python:3.10-slim
+# Use python:3.10-slim-bullseye which has stable support for libgl1-mesa-glx (fixes apt error)
+FROM python:3.10-slim-bullseye
 
 # Set working directory
 WORKDIR /app
