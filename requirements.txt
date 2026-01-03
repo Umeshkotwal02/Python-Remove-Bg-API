@@ -1,12 +1,8 @@
+# Lightweight requirements for Vercel
 flask
 flask-cors
 rembg
 pillow
 waitress
-# Pinned for stability on Windows/CPU
 numpy<2.0.0
 onnxruntime==1.18.0
-numba==0.59.1
-transparent-background==1.2.12
-torch
-torchvision
